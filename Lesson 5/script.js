@@ -43,11 +43,11 @@ sortPopular(films)
 
 // завдання 4
 
-function sortYear(array, year){
-    return array.filter(function(films){
+function sortYear(films, year){
+    return films.filter(function(films){
         return films.Рік == year;
     });
 }
-let filmSort = sortYear(films, 2020);
+let filmSort = sortYear(films, 2023);
 
 console.log(filmSort);
