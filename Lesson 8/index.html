@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW-8</title>
+   <script src="script.js"></script>
+    <style>
+       .hide{
+            display: none;
+        }
+        .menu-control .open{
+            display: none;
+        }
+        .menu-control .close{
+            display: block;
+        }
+        .menu-control.close-menu .open{
+            display: block;
+        }
+        .menu-control.close-menu .close{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <button class="menu-control close-menu">
+        <span class="open">
+            Open menu
+        </span>
+        <span class="close">
+            Close menu
+        </span>
+
+    </button>
+    <ul class="menu hide">
+        <li>Home</li>
+        <li>About</li>
+    </ul>
+    <button class="grow">
+        click 10px
+    </button>
+   
+</body>
+</html>
