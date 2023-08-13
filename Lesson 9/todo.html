@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Todo list</title>
+    <script src="todo.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <form action="">
+            <div class="row p-5 justify-content-center">
+                <div class="col-auto">
+                    <label class="col-form-label" for="todo" >
+                        Type your goal
+                    </label>
+                </div>
+                <div class="col-auto">
+                    <input type="text" id="todo" class="form-control" placeholder="type todo goal">
+                </div>
+                <div class="col-auto">
+                    <input type="submit" type="button" class="btn btn-danger" value="Create ToDo">
+                </div>
+            </div>            
+        </form>
+
+        <div class="row">
+            <ul class="list-group">
+                <!-- <li class="list-group-item">An item</li> -->
+              </ul>
+        </div>
+    </div>
+  </body>
+</html>
